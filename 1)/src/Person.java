@@ -1,3 +1,8 @@
+/*
+1. Создать следующие классы согласно схеме. Заметка – у вас есть класс Address – это класс,
+который является просто полем вашего класса Person.
+Student/Professor – наследники от класса Person
+ */
 public class Person {
     private Address address = new Address();
     private String name;

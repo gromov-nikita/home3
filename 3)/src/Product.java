@@ -1,6 +1,6 @@
 public class Product {
     private String name;
-    private int price;
+    private int price = 1;
     private int rating;
     public String getName() {
         return name;
@@ -20,7 +20,7 @@ public class Product {
     public void setRating(int rating) {
         this.rating = rating;
     }
-    public double discount() {
-
+    public void printDiscount() {
+        System.out.println(price * 0.9);
     }
 }
